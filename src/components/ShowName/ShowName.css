@@ -1,0 +1,20 @@
+.show-name {
+  justify-self: center;
+  background-color: rgb(204, 204, 204);
+  margin: 5px;
+  padding: 6px;
+  width: auto;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 1.25rem;
+}
+
+.name-male {
+  background-color: #a0cfee;
+  color: #16527a;
+}
+
+.name-female {
+  background-color: #fcc6e5;
+  color: #9c115c;
+}
