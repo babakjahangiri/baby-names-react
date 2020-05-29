@@ -1,0 +1,12 @@
+.BeeImage {
+  height: 300px;
+  width: auto;
+}
+
+.welcome-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  font-size: 5rem;
+  font-family: "Abril Fatface", cursive;
+}

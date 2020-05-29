@@ -1,0 +1,12 @@
+.input-search {
+  padding: 5px;
+  border: 1px solid #101820ff;
+  margin: 20px;
+  font-size: 1.85rem;
+  outline: #101820ff auto 1px;
+  margin-bottom: 50px;
+}
+
+.input-search:focus {
+  outline: #fee715ff auto 1px;
+}

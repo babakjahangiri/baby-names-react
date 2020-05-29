@@ -1,11 +1,13 @@
 import React from "react";
 import "./ShowName.css";
 
-const ShowName = ({ name, sex }) => {
+const ShowName = ({ id, name, sex }) => {
   return (
-    <div className={`show-name ${sex === "m" ? " name-male" : " name-female"}`}>
+    <button
+      className={`show-name ${sex === "m" ? "name-male" : "name-female"}`}
+    >
       {name}
-    </div>
+    </button>
   );
 };
 

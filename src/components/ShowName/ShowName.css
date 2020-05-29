@@ -7,14 +7,42 @@
   text-align: center;
   border-radius: 5px;
   font-size: 1.25rem;
+  cursor: pointer;
+  border: 0;
+}
+
+.show-name:hover {
+  -webkit-animation: show-name 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
+  animation: show-name 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
 }
 
 .name-male {
-  background-color: #a0cfee;
-  color: #16527a;
+  background-color: #101820ff;
+  color: #fee715ff;
 }
 
 .name-female {
-  background-color: #fcc6e5;
-  color: #9c115c;
+  background-color: #fee715ff;
+  color: #101820ff;
+}
+
+@-webkit-keyframes show-name {
+  0% {
+    -webkit-transform: rotateX(0);
+    transform: rotateX(0);
+  }
+  100% {
+    -webkit-transform: rotateX(-360deg);
+    transform: rotateX(-360deg);
+  }
+}
+@keyframes show-name {
+  0% {
+    -webkit-transform: rotateX(0);
+    transform: rotateX(0);
+  }
+  100% {
+    -webkit-transform: rotateX(-360deg);
+    transform: rotateX(-360deg);
+  }
 }
