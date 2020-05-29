@@ -1,18 +1,11 @@
 body {
-  width: 100%;
   text-align: center;
-  display: flex;
-  justify-content: center;
-  justify-items: center;
   background-color: #f7f7f7;
 }
 .app {
-  justify-self: center;
   text-align: center;
-  width: 90vw;
-  margin-top: 50px;
   padding: 40px;
-
+  margin: 5%;
   border-top: #fee715ff;
   border-left: #fee715ff;
   border-right: #101820ff;
